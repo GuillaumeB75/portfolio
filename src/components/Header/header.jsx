@@ -1,10 +1,10 @@
 import React from "react";
-import "./header.scss";
+
 import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <nav className="header">
+    <nav className="Header">
       <NavLink to="/">
         <div>Accueil</div>
       </NavLink>
