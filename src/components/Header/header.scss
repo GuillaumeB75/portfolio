@@ -2,17 +2,34 @@
 
 .header {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  color: $color-secondary;
-  background-color: $background-header;
-  gap: 2rem;
+  padding: 1rem;
+  
+  gap: 1rem;
   font-size: 25px;
-  :hover {
-    text-decoration: underline;
-  }
+  background-color: $background-header;
 
   @media screen and (max-width: 767px) {
     font-size: 15px;
     text-transform: uppercase;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $color-secondary;
+    &.active,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .header_logo {
+    img {
+      @media screen and (max-width: 767px) {
+        width: 145px;
+        height: 47px;
+      }
+    }
   }
 }
