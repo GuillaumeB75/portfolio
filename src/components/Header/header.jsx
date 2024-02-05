@@ -1,22 +1,32 @@
 import React from "react";
 import "./header.scss";
 import { NavLink } from "react-router-dom";
-import logoForHeader from "../../assets/images/LOGO_header.png";
+
 
 function Header() {
   return (
     <nav className="header">
-      <div className="header_logo">
-        <img
-          src={logoForHeader}
-          alt="logo rouge rosé intitulé KASA avec une icone de maison à la place de la première lettre a"
-        />
-      </div>
+      
       <NavLink to="/">
-        <div>Accueil</div>
+        <div>Home</div>
       </NavLink>
       <NavLink to="/about">
-        <div>A Propos</div>
+        <div>About</div>
+      </NavLink>
+      <NavLink to="/skills">
+        <div>Skills</div>
+      </NavLink>
+      <NavLink to="/education">
+        <div>Education</div>
+      </NavLink>
+      <NavLink to="/experience">
+        <div>Experience</div>
+      </NavLink>
+      <NavLink to="/projects">
+        <div>Projects</div>
+      </NavLink>
+      <NavLink to="/resume">
+        <div>Resume</div>
       </NavLink>
     </nav>
   );
