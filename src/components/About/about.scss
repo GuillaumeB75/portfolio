@@ -1,0 +1,45 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8; // Ou toute autre couleur de fond
+  
+    .bio {
+      flex: 1;
+      padding-right: 1rem;
+  
+      h2 {
+        margin-bottom: 15px;
+      }
+  
+      p {
+        font-size: medium;
+      }
+    }
+  
+    .image-container {
+      flex: 1;
+      text-align: right;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px; // Pour un effet arrondi
+      }
+    }
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+  
+      .image-container {
+        margin-bottom: 20px;
+      }
+  
+      .bio {
+        padding-right: 0;
+      }
+    }
+  }
+  

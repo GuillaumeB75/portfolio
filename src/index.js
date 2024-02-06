@@ -6,12 +6,14 @@ import RoutesDefinition from "./routes/RoutesConfiguration";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
     <Header />
+    <About />
       <RoutesDefinition />
       <Footer />
     </Router>

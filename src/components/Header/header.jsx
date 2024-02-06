@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.scss";
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 
 function Header() {
@@ -10,9 +11,8 @@ function Header() {
       <NavLink to="/">
         <div>Home</div>
       </NavLink>
-      <NavLink to="/about">
-        <div>About</div>
-      </NavLink>
+      <Link to="about" smooth={true} duration={1000}>About</Link>
+
       <NavLink to="/skills">
         <div>Skills</div>
       </NavLink>
