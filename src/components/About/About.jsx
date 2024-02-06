@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import "./about.scss"; // Assurez-vous d'avoir ce fichier SCSS dans le même dossier
+import "./about.scss";
 import perso from "../../assets/images/perso.jpeg";
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
         </p>
       </div>
       <div className="image-container">
-        <img src={perso} alt="Your Name" />
+        <img src={perso} alt="Guillaume Bézie" />
       </div>
     </Element>
   );

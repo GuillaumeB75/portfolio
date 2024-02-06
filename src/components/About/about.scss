@@ -1,6 +1,6 @@
 .about-container {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 50px;
     background-color: #f8f8f8; // Ou toute autre couleur de fond
@@ -8,6 +8,7 @@
     .bio {
       flex: 1;
       padding-right: 1rem;
+      text-align: center;
   
       h2 {
         margin-bottom: 15px;
@@ -20,7 +21,7 @@
   
     .image-container {
       flex: 1;
-      text-align: right;
+     
   
       img {
         max-width: 100%;
