@@ -14,7 +14,7 @@ function About() {
         <p>{aboutData.text}</p>
       </div>
       <div className="image-container">
-        <img src={perso} alt="Guillaume Bézie" />
+        <img src={perso} alt="Moi" />
       </div>
     </Element>
   );
