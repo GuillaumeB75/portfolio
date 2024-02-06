@@ -13,9 +13,9 @@ function Header() {
       </NavLink>
       <Link to="about" smooth={true} duration={1000}>About</Link>
 
-      <NavLink to="/skills">
+      <Link to="skills">
         <div>Skills</div>
-      </NavLink>
+      </Link>
       <NavLink to="/education">
         <div>Education</div>
       </NavLink>
