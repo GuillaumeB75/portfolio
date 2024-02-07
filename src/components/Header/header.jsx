@@ -2,15 +2,13 @@ import React from "react";
 import "./header.scss";
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-scroll';
-import perso from "../../assets/images/perso.jpeg";
+
 
 
 function Header() {
   return (
     <nav className="header">
-      <div className="image-container">
-        <img src={perso} alt="Moi" />
-      </div>
+      
       
       <NavLink to="/">
         <div>Home</div>
