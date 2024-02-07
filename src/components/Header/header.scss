@@ -24,12 +24,12 @@
     }
   }
 
-  .header_logo {
+  .image-container{
     img {
-      @media screen and (max-width: 767px) {
-        width: 145px;
-        height: 47px;
-      }
+      max-width: 15%;
+      height: auto;
+      border-radius: 10px;
+      justify-content: left;
     }
   }
 }
