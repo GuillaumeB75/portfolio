@@ -15,7 +15,8 @@
     div {
       flex: 1; // Permet à chaque liste de remplir l'espace équitablement
       min-width: 250px; // Assure que les listes passent à la disposition verticale si l'écran est trop petit
-      margin: 10px; // Ajoute un peu d'espace autour de chaque liste
+      margin: 10px;
+      font-size: 40px; // Ajoute un peu d'espace autour de chaque liste
   
       ul {
         list-style: none;

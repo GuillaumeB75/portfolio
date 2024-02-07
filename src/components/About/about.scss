@@ -1,47 +1,48 @@
+@import "../../sass/utils/variables.scss";
+
 .about-container {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #f8f8f8; // Ou toute autre couleur de fond
-    height: 100vh;
-  
-    .bio {
-      flex: 1;
-      padding-right: 1rem;
-      text-align: center;
-  
-      h2 {
-        margin-bottom: 15px;
-      }
-  
-      p {
-        font-size: medium;
-      }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  .bio {
+    flex: 1;
+    padding-right: 1rem;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 15px;
     }
-  
-    .image-container {
-      flex: 1;
-     
-  
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px; 
-      }
-    }
-  
-    @media (max-width: 768px) {
-      flex-direction: column;
-      text-align: center;
-      padding-top: 12%;
-  
-      .image-container {
-        margin-bottom: 20px;
-      }
-  
-      .bio {
-        padding-right: 0;
-      }
+
+    p {
+      font-size: medium;
     }
   }
-  
+
+  .image-container {
+    flex: 1;
+    justify-content: center;
+
+    img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 12%;
+
+    .image-container {
+      margin-bottom: 20px;
+    }
+
+    .bio {
+      padding-right: 0;
+    }
+  }
+}

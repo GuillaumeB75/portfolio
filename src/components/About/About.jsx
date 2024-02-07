@@ -16,14 +16,7 @@ function About() {
       <div className="image-container">
         <img src={perso} alt="Moi" />
       </div>
-      <div className="social-icons">
-        <a href="https://github.com/GuillaumeB75" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/guillaume-bezie/" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
+      
     </Element>
   );
 }
