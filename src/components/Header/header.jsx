@@ -16,10 +16,9 @@ function Header() {
         <div>Home</div>
       </NavLink>
       <Link to="about" smooth={true} duration={1000}>About</Link>
+      <Link to="Skills" smooth={true} offset={-70} duration={1000}>Skills</Link>
 
-      <Link to="skills">
-        <div>Skills</div>
-      </Link>
+      
       <NavLink to="/education">
         <div>Education</div>
       </NavLink>
