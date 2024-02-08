@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import "./about.scss";
 import perso from "../../assets/images/perso.jpeg";
-import data from "../../assets/data/projects.json";
+import data from "../../assets/data/about.json";
 
 function About() {
   const aboutData = data.about;
