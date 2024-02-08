@@ -1,22 +1,38 @@
 [
-    {
-      "title": "Titre de la carte 1",
-      "text": "Texte court pour la carte 1.",
-      "imageSrc": "cometh_dao.jpg",
-      "githubLink": "https://github.com/lien_vers_le_repo_1"
-    },
-    {
-      "title": "Titre de la carte 2",
-      "text": "Texte court pour la carte 2.",
-      "imageSrc": "back.jpg",
-      "githubLink": "https://github.com/lien_vers_le_repo_2"
-    },
-    {
-      "title": "Titre de la carte 3",
-      "text": "Texte court pour la carte 3.",
-      "imageSrc": "perso.jpeg",
-      "githubLink": "https://github.com/lien_vers_le_repo_3"
-    }
-
-  ]
-  
+  {
+    "title": "Projet Cometh",
+    "text": "Texte court pour la carte 1.",
+    "imageSrc": "cometh_dao.jpg",
+    "githubLink": "https://github.com/lien_vers_le_repo_1"
+  },
+  {
+    "title": "Projet Kasa",
+    "text": "Texte court pour la carte 2.",
+    "imageSrc": "back.jpg",
+    "githubLink": "https://github.com/lien_vers_le_repo_2"
+  },
+  {
+    "title": "Projet Mon Vieux Grimoire",
+    "text": "Texte court pour la carte 3.",
+    "imageSrc": "perso.jpeg",
+    "githubLink": "https://github.com/lien_vers_le_repo_3"
+  },
+  {
+    "title": "Projet architecte Sophie Buel",
+    "text": "Texte court pour la carte 1.",
+    "imageSrc": "cometh_dao.jpg",
+    "githubLink": "https://github.com/lien_vers_le_repo_1"
+  },
+  {
+    "title": "Projet Nina Carducci",
+    "text": "Texte court pour la carte 2.",
+    "imageSrc": "back.jpg",
+    "githubLink": "https://github.com/lien_vers_le_repo_2"
+  },
+  {
+    "title": "Projet Booki",
+    "text": "Texte court pour la carte 3.",
+    "imageSrc": "perso.jpeg",
+    "githubLink": "https://github.com/lien_vers_le_repo_3"
+  }
+]
