@@ -1,21 +1,21 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./start.scss";
-
-
-import data from "../../assets/data/projects.json";
+import back from "../../assets/images/back.jpg";
 
 function Start() {
-  const aboutData = data.about;
-
   return (
-    <Element name="Start" className="about-container">
+    <Element
+      name="Start"
+      className="start-container"
+      style={{ background: `url(${back})` }}
+    >
       <div className="bio">
-        <h2>{aboutData.title}</h2>
-        <p>{aboutData.text}</p>
+        <h1>Bonjour !</h1>
+        <p>Je suis Guillaume Bézie</p>
+        <p>développeur front-end</p>
+        <p>et votre futur consultant AMOA</p>
       </div>
-     
-      
     </Element>
   );
 }
