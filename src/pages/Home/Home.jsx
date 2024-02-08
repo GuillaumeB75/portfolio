@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Skills from "../../components/Skills/Skills";
+import Cards from "../../components/Projects/Projects";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Start />
       <About />
       <Skills />
+      <Cards />
       <Footer />
     </div>
   );

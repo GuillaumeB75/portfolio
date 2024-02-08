@@ -1,10 +1,11 @@
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
-    
     height: 100vh;
+    
+   
   
     h2 {
       width: 100%; // Assure que le titre est toujours en pleine largeur
@@ -39,6 +40,7 @@
       .skills-container {
         flex-direction: column;
         align-items: center;
+        height: 100vh;
   
         div {
           width: 80%; // Augmente la largeur des listes sur les petits écrans

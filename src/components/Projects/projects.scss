@@ -1,0 +1,79 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+.projects-container > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  .card {
+    margin: 1rem;
+    width: 25rem;
+    box-shadow: 0 2px 5px $gray-500; // Une ombre portée légère pour faire ressortir les cartes
+    height:fit-content;
+
+    .card-img-top {
+      height: 180px;
+      object-fit: content;
+    }
+
+    .card-body {
+      .card-title {
+        font-size: 1.25rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+
+      .card-link {
+        color: $primary;
+        &:hover {
+          color: darken($primary, 10%);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+
+// Media queries pour un design réactif
+@include media-breakpoint-down(sm) {
+  .div {
+    .card {
+      width: 100%; // Les cartes prendront toute la largeur sur les petits écrans
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .div {
+    .card {
+      width: calc(50% - 2rem); // Deux cartes par ligne sur les écrans moyens
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .div {
+    .card {
+      width: calc(
+        33.333% - 2rem
+      ); // Trois cartes par ligne sur les grands écrans
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .div {
+    .card {
+      width: calc(
+        25% - 2rem
+      ); // Quatre cartes par ligne sur les très grands écrans
+    }
+  }
+}
