@@ -3,36 +3,36 @@
     "title": "Projet Cometh",
     "text": "Texte court pour la carte 1.",
     "imageSrc": "cometh_dao.jpg",
-    "githubLink": "https://github.com/lien_vers_le_repo_1"
+    "githubLink": "https://github.com/GuillaumeB75/Dapp_ComEth"
   },
   {
     "title": "Projet Kasa",
     "text": "Texte court pour la carte 2.",
-    "imageSrc": "back.jpg",
+    "imageSrc": "Kasa.png",
     "githubLink": "https://github.com/lien_vers_le_repo_2"
   },
   {
     "title": "Projet Mon Vieux Grimoire",
     "text": "Texte court pour la carte 3.",
-    "imageSrc": "perso.jpeg",
+    "imageSrc": "Mon_vieux_grimoire.png",
     "githubLink": "https://github.com/lien_vers_le_repo_3"
   },
   {
     "title": "Projet architecte Sophie Buel",
     "text": "Texte court pour la carte 1.",
-    "imageSrc": "cometh_dao.jpg",
+    "imageSrc": "Sophie_Buel.png",
     "githubLink": "https://github.com/lien_vers_le_repo_1"
   },
   {
     "title": "Projet Nina Carducci",
     "text": "Texte court pour la carte 2.",
-    "imageSrc": "back.jpg",
+    "imageSrc": "Nina_Carducci.jpg",
     "githubLink": "https://github.com/lien_vers_le_repo_2"
   },
   {
     "title": "Projet Booki",
     "text": "Texte court pour la carte 3.",
-    "imageSrc": "perso.jpeg",
+    "imageSrc": "Booki.png",
     "githubLink": "https://github.com/lien_vers_le_repo_3"
   }
 ]
