@@ -13,7 +13,7 @@ function Start() {
       <div className="bio">
         <h1>Bonjour !</h1>
         <h1>Je suis Guillaume Bézie</h1>
-        <h1>développeur front-end</h1>
+        <h1>développeur intégrateur web</h1>
         <h1>et futur consultant AMOA</h1>
       </div>
     </Element>
