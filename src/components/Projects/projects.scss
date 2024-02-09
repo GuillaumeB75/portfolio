@@ -1,11 +1,18 @@
 
 .projects-container > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto; /* Valeur par défaut pour les petits écrans */
+}
+
+@media (min-width: 769px) {
+  .projects-container > div {
+    height: 100vh; /* Hauteur fixe pour les écrans plus grands */
   }
+}
+
   .card {
     margin: 1rem;
     width: 25rem;
@@ -39,4 +46,16 @@
       }
     }
   }
+
+   @media (max-width: 768px) {
+      .skills-container {
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+  
+        div {
+          width: 80%; // Augmente la largeur des listes sur les petits écrans
+        }
+      }
+    }
 

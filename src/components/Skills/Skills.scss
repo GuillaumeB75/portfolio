@@ -8,16 +8,16 @@
    
   
     h2 {
-      width: 100%; // Assure que le titre est toujours en pleine largeur
+      // Assure que le titre est toujours en pleine largeur
       text-align: center;
       margin: 20px 0;
     }
   
     div {
       flex: 1; // Permet à chaque liste de remplir l'espace équitablement
-      min-width: 250px; // Assure que les listes passent à la disposition verticale si l'écran est trop petit
+       // Assure que les listes passent à la disposition verticale si l'écran est trop petit
       margin: 10px;
-      font-size: 40px; // Ajoute un peu d'espace autour de chaque liste
+      font-size: 20px; // Ajoute un peu d'espace autour de chaque liste
   
       ul {
         list-style: none;
@@ -43,7 +43,7 @@
         height: 100vh;
   
         div {
-          width: 80%; // Augmente la largeur des listes sur les petits écrans
+          font-size: 20px; // Augmente la largeur des listes sur les petits écrans
         }
       }
     }
