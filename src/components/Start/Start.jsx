@@ -12,9 +12,9 @@ function Start() {
     >
       <div className="bio">
         <h1>Bonjour !</h1>
-        <p>Je suis Guillaume Bézie</p>
-        <p>développeur front-end</p>
-        <p>et votre futur consultant AMOA</p>
+        <h1>Je suis Guillaume Bézie</h1>
+        <h1>développeur front-end</h1>
+        <h1>et votre futur consultant AMOA</h1>
       </div>
     </Element>
   );
