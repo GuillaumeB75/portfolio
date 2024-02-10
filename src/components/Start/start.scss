@@ -7,10 +7,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   color: black; // Couleur du texte
-  text-align: center;
+  text-align: left;
   font-size: 30px;
+  padding-right: 10rem;
   
   
  

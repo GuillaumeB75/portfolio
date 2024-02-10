@@ -4,18 +4,15 @@ import "./start.scss";
 import back from "../../assets/images/back.jpg";
 
 function Start() {
-  // Utilisez useRef pour obtenir des références aux éléments DOM que vous allez animer
   const h1Ref = useRef(null);
   const h2Ref = useRef(null);
+  const h3Ref = useRef(null);
 
-  // Définissez la vitesse de l'effet de frappe
-  const speed = 100;
+  const speed = 100; // Vitesse de l'effet de frappe
 
-  // Fonction pour appliquer l'effet de frappe
   const typeEffect = (element, speed) => {
     const text = element.innerHTML;
     element.innerHTML = "";
-
     let i = 0;
     const timer = setInterval(() => {
       if (i < text.length) {
@@ -27,16 +24,22 @@ function Start() {
     }, speed);
   };
 
-  // Utilisez useEffect pour exécuter l'animation après le montage du composant
   useEffect(() => {
-    if (h1Ref.current && h2Ref.current) {
+    if (h1Ref.current && h2Ref.current && h3Ref.current) {
       typeEffect(h1Ref.current, speed);
-      const delay = h1Ref.current.innerHTML.length * speed + speed;
-
+      const delayH1 = h1Ref.current.innerHTML.length * speed + speed;
+      // Ajustez ici pour inclure le délai après la fin de l'animation de h1Ref avant de commencer h2Ref
       setTimeout(() => {
-        h2Ref.current.style.display = "inline-block";
+        h2Ref.current.style.display = "block"; // Utilisez "block" pour s'assurer qu'il s'affiche sur une nouvelle ligne
         typeEffect(h2Ref.current, speed);
-      }, delay);
+      }, delayH1);
+
+      const delayH2 = delayH1 + h2Ref.current.innerHTML.length * speed + speed;
+      // Ajustez ici pour inclure le délai total après h1Ref et h2Ref avant de commencer h3Ref
+      setTimeout(() => {
+        h3Ref.current.style.display = "block"; // De même, "block" pour une nouvelle ligne
+        typeEffect(h3Ref.current, speed);
+      }, delayH2);
     }
   }, [speed]);
 
@@ -49,7 +52,8 @@ function Start() {
       <div id="table">
         <div id="centeralign">
           <h1 ref={h1Ref}>Bonjour !</h1>
-          <h2 ref={h2Ref} style={{ display: 'none' }}>Je suis Guillaume Bézie, développeur intégrateur Web</h2>
+          <h2 ref={h2Ref} style={{ display: 'none' }}>Je suis Guillaume Bézie,</h2>
+          <h2 ref={h3Ref} style={{ display: 'none' }}>Développeur Intégrateur Web</h2>
         </div>
       </div>
     </Element>
