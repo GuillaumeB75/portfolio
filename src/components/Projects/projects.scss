@@ -4,12 +4,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: auto; /* Valeur par défaut pour les petits écrans */
+  height: auto; 
 }
 
 @media (min-width: 769px) {
   .projects-container > div {
-    height: 100vh; /* Hauteur fixe pour les écrans plus grands */
+    height: 100vh; 
   }
 }
 
@@ -30,15 +30,17 @@
         font-size: 1.25rem;
         font-style: oblique;
         font-weight: bold;
+        text-align: center;
       }
 
       .card-text {
         font-size: 0.9rem;
         margin-top: 0.5rem;
+         text-align: center;
       }
 
       .card-link {
-        
+        text-align: center;
         &:hover {
           
           text-decoration: none;
@@ -54,7 +56,7 @@
         height: 100vh;
   
         div {
-          width: 80%; // Augmente la largeur des listes sur les petits écrans
+          width: 80%; 
         }
       }
     }
