@@ -6,7 +6,7 @@ function Skills() {
   
   return (
     <Element name="Skills" className="skills-container">
-      <h2>Skills</h2>
+      <h2>Compétences</h2>
       <div>
         <ul>
           <li><i className="fa-brands fa-js fa-xl"></i> Javascript</li>

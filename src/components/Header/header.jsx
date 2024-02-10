@@ -7,16 +7,16 @@ function Header() {
   return (
     <nav className="header">
       <Link to="Start" smooth={true} offset={-70} duration={1000}>
-        Home
+        Accueil
       </Link>
       <Link to="about" smooth={true} duration={1000}>
-        About
+        À propos
       </Link>
       <Link to="Skills" smooth={true} offset={-70} duration={1000}>
-        Skills
+        Compétences
       </Link>
       <Link to="Projects" smooth={true} offset={-70} duration={1000}>
-        Projects
+        Projets
       </Link>
       <Link to="Contact" smooth={true} offset={-70} duration={1000}>
         Contact

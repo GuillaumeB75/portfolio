@@ -8,6 +8,7 @@ import data from "../../assets/data/cards.json"; // Assurez-vous que le chemin e
 function Cards() {
   return (
     <Element name="Projects" className="projects-container">
+     
     <div>
       {data.map((item, index) => (
         <Card key={index} >
