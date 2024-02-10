@@ -13,11 +13,13 @@
   text-align: left;
   font-size: 30px;
   padding-right: 10rem;
-  
-  
+
  
-
-  
 }
-
-
+@media screen and (max-width: 767px) {
+  .start-container {
+    
+    padding-right: 0rem; /* Hauteur fixe pour les écrans plus grands */
+    text-align: center;
+  }
+}
