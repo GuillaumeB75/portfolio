@@ -1,20 +1,11 @@
 import React from 'react';
-import "./downloadCVButton.scss";
+import monCV from "../src/assets/data/CV_Guillaume_Bézie.pdf"; // Assurez-vous d'ajuster le chemin d'importation
 
 const DownloadCVButton = () => {
-  // Fonction pour gérer le téléchargement
-  const handleDownloadCV = () => {
-    // Créez un élément a temporaire pour déclencher le téléchargement
-    const link = document.createElement('a');
-    link.href = 'CV_Guillaume_Bézie.pdf'; // Le chemin vers le fichier CV dans le dossier public
-    link.download = 'CV_Guillaume_Bézie.pdf'; // Le nom sous lequel le fichier sera téléchargé
-    document.body.appendChild(link); // Ajouter à la page
-    link.click(); // Simuler un clic pour déclencher le téléchargement
-    document.body.removeChild(link); // Nettoyer en supprimant l'élément
-  };
-
   return (
-    <button onClick={handleDownloadCV}>Télécharger mon CV</button>
+    <a href={monCV} download="CV_Guillaume_Bézie.pdf" style={{ textDecoration: 'none' }}>
+      <button type="button">Télécharger mon CV</button>
+    </a>
   );
 };
 
