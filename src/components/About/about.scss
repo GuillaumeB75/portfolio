@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
 
   .bio {
@@ -12,13 +11,15 @@
     padding-right: 1rem;
     text-align: center;
     color: black;
+    
 
     h2 {
       margin-bottom: 15px;
     }
 
     p {
-      font-size: medium;
+      font-size: 30px;
+      font-style: italic;
     }
   }
 
@@ -27,7 +28,7 @@
     justify-content: center;
 
     img {
-      max-width: 200px;
+      max-width: 350px;
       height: auto;
       border-radius: 10px;
     }
@@ -40,10 +41,17 @@
 
     .image-container {
       margin-bottom: 20px;
+
+      img {
+        max-width: 200px;
+        height: auto;
+        border-radius: 10px;
+      }
     }
 
     .bio {
       padding-right: 0;
+      padding-top: 1rem;
     }
   }
 }

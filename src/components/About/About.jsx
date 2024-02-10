@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./about.scss";
-import perso from "../../assets/images/perso.jpeg";
+import perso from "../../assets/images/perso2.jpg";
 import data from "../../assets/data/about.json";
 import DownloadCVButton from "../../components/DownloadCVButton/DownloadCVButton";
 
