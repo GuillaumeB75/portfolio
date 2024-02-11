@@ -4,23 +4,23 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: auto; 
+  height: max-content; 
 }
 
 @media (min-width: 769px) {
   .projects-container > div {
-    height: 100vh; 
+    height: max-content; 
   }
 }
 
   .card {
     margin: 1rem;
-    width: 25rem;
+    width: 50rem;
     box-shadow: 0 2px 5px; // Une ombre portée légère pour faire ressortir les cartes
     height:fit-content;
 
     .card-img-top {
-      height: 180px;
+      height: 250px;
       object-fit: cover; 
       width: 100%; 
     }
@@ -50,13 +50,19 @@
   }
 
    @media (max-width: 768px) {
-      .skills-container {
+      .projects-container {
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: max-content;
   
         div {
-          width: 80%; 
+          width: 100%; 
+        }
+
+        .card-img-top {
+          height: 180px;
+          object-fit: cover; 
+          width: 100%; 
         }
       }
     }
