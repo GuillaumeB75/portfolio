@@ -27,19 +27,19 @@ function Skills() {
       <div className="card">
         <ul>
           <li>
-            <img src={javascriptImg} alt="Javascript" /> Javascript
+            <img src={javascriptImg} alt="Javascript" /> JAVASCRIPT
           </li>
           <li>
             <img src={reactImg} alt="REACT.JS" /> REACT.JS
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
-          </li>
-          <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={solidityImg} alt="Solidity" /> SOLIDITY
           </li>
           <li>
             <img src={sassImg} alt="SASS" /> SASS
+          </li>
+          <li>
+            <img src={htmlImg} alt="HTML5" /> HTML5
           </li>
         </ul>
       </div>

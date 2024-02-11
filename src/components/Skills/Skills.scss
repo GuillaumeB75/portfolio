@@ -44,7 +44,12 @@ li {
 
   img {
     margin-right: 10px;
-    width: 30px;
+    width: 70px;
     height: auto;
+
+    @media (max-width: 768px) {
+      width: 30px; 
+       
+    }
   }
 }
