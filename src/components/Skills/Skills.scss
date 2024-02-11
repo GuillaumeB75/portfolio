@@ -1,51 +1,50 @@
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
-    background-color: rgb(232, 232, 230);
-   
-  
-    h2 {
-      // Assure que le titre est toujours en pleine largeur
-      text-align: center;
-      margin: 20px 0;
-    }
-  
-    div {
-      flex: 1; // Permet à chaque liste de remplir l'espace équitablement
-       // Assure que les listes passent à la disposition verticale si l'écran est trop petit
-      margin: 10px;
-      font-size: 20px; // Ajoute un peu d'espace autour de chaque liste
-  
-      ul {
-        list-style: none;
-        padding: 0;
-  
-        li {
-          display: flex;
-          align-items: center; // Centre les icônes avec le texte verticalement
-          margin: 10px 0;
-  
-          i {
-            margin-right: 10px; // Ajoute un espace entre l'icône et le texte
-          }
-        }
-      }
-    }
-  
-    // Media query pour les écrans plus petits
-    @media (max-width: 768px) {
-      .skills-container {
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-  
-        div {
-          font-size: 20px; // Augmente la largeur des listes sur les petits écrans
-        }
-      }
+
+    div { // S'assure que chaque carte à l'intérieur de `.skills-container` s'ajuste
+      width: 80%; // Ajuste la largeur des cartes pour qu'elles s'adaptent mieux
+      margin: 10px 0; // Espacement vertical pour ne pas déborder sur l'élément suivant
     }
   }
+}
+
+.card {
+  margin: 1rem; // Espacement uniforme autour des cartes
+  width: 25rem; // Largeur par défaut, peut être ajustée si nécessaire
+  box-shadow: 0 2px 5px; // Ombre portée pour le relief
+  height: fit-content; // S'adapte au contenu de la carte
+
+  @media (max-width: 768px) {
+    width: 80%; // Ajustement de la largeur en responsive
+     // Restaurez le padding si nécessaire pour le contenu interne
+  }
+}
+
+// Les styles pour `.card-img-top`, `.card-body`, `.card-title`, `.card-text`, et `.card-link` restent inchangés
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
   
+
+  img {
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+  }
+}
