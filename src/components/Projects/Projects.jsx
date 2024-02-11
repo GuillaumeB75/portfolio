@@ -18,6 +18,9 @@ function Cards() {
             <Card.Text>
               {item.text}
             </Card.Text>
+            <Card.Text>
+              {item.text2}
+            </Card.Text>
           </Card.Body>
           <Card.Body>
             <Card.Link href={item.githubLink}>GitHub Repo</Card.Link>

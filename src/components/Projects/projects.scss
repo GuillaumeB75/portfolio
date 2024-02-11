@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: max-content; 
+  text-align: center;
 }
 
 @media (min-width: 769px) {
@@ -40,7 +41,7 @@
       }
 
       .card-link {
-        align-items: center;
+       
         &:hover {
           
           text-decoration: none;

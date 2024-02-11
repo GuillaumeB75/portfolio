@@ -2,18 +2,21 @@
   {
     "title": "Projet Cometh",
     "text": "jndsjnjnjnjkzsnjfknz iuhfuiheziurfiuzerf ihiuhierhifhher hifhieurhiufiuerhfiur iheiurhfihierif obebrfibeibrfbera berfbherbfhbuerbf iebrfhberbfbherbf ",
+    "text2": "lolololololololol",
     "imageSrc": "cometh_dao.jpg",
     "githubLink": "https://github.com/GuillaumeB75/Dapp_ComEth"
   },
   {
     "title": "Projet Kasa",
     "text": "Texte court pour la carte 2.",
+    "text2": "lolololololololol",
     "imageSrc": "Kasa.png",
     "githubLink": "https://github.com/lien_vers_le_repo_2"
   },
   {
     "title": "Projet Mon Vieux Grimoire",
     "text": "Texte court pour la carte 3.",
+    "text2": "lolololololololol",
     "imageSrc": "Mon_vieux_grimoire2.png",
     "githubLink": "https://github.com/lien_vers_le_repo_3"
   }

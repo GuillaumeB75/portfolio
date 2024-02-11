@@ -1,7 +1,7 @@
 .skills-container {
   display: flex;
   flex-direction: row;
-  
+
   height: 100vh;
   background-color: rgb(231, 229, 227);
 
@@ -14,7 +14,7 @@
     align-items: center;
     height: 100vh;
 
-    div { 
+    div {
       width: 80%; // Ajuste la largeur des cartes pour qu'elles s'adaptent mieux
       margin: 10px 0; // Espacement vertical pour ne pas déborder sur l'élément suivant
     }
@@ -22,18 +22,16 @@
 }
 
 .card {
-  margin: 1rem; 
-  width: 25rem; 
+  margin: 1rem;
+  width: 25rem;
   box-shadow: 0 2px 5px; // Ombre portée pour le relief
   height: fit-content; // S'adapte au contenu de la carte
   background-color: white;
 
   @media (max-width: 768px) {
     width: 80%; // Ajustement de la largeur en responsive
-     
   }
 }
-
 
 ul {
   list-style: none;
@@ -45,7 +43,6 @@ li {
   align-items: center;
   font-style: italic;
   font-weight: bold;
-  
 
   img {
     margin-right: 30px;
@@ -54,10 +51,9 @@ li {
     padding-bottom: 1rem;
 
     @media (max-width: 768px) {
-      width: 30px; 
+      width: 30px;
       margin-right: 10px;
       padding-bottom: 0;
-       
     }
   }
 }
