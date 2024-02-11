@@ -8,7 +8,7 @@
 
   .bio {
     flex: 1;
-    
+
     text-align: center;
     color: black;
 
@@ -19,6 +19,10 @@
     p {
       font-size: 30px;
       font-style: italic;
+    }
+
+    a {
+      padding-right: 1rem;
     }
   }
 
@@ -49,20 +53,18 @@
       }
     }
 
-     .bio p {
+    .bio p {
       font-size: 20px;
       font-style: italic;
-  }
+    }
   }
 }
 
-
-  @keyframes slideInFromRight {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(0);
-    }
- 
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

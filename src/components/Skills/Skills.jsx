@@ -12,7 +12,7 @@ import metamaskImg from "../../assets/images/MetaMask.png";
 import jiraImg from "../../assets/images/Jira.jpeg"; // Mettez à jour le chemin
 import htmlImg from "../../assets/images/HTML5.png"; // Mettez à jour le chemin
 import hardhatImg from "../../assets/images/Hardhat.png"; // Mettez à jour le chemin
-import githubImg from "../../assets/images/Github.png"; // Mettez à jour le chemin
+import gitImg from "../../assets/images/Git.png"; // Mettez à jour le chemin
 import expressImg from "../../assets/images/ExpressJS.png";
 import etherImg from "../../assets/images/EtherJS.png"; // Mettez à jour le chemin
 import cssImg from "../../assets/images/CSS3.png"; // Mettez à jour le chemin
@@ -52,32 +52,32 @@ function Skills() {
             <img src={bootstrapImg} alt="BOOTSTRAP" /> BOOTSTRAP
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
+            <img src={expressImg} alt="EXPRESS.JS" /> EXPRESS.JS
           </li>
           <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={nodeImg} alt="NODE.JS" /> NODE.JS
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
+            <img src={mongoImg} alt="MongoDB" /> MongoDB
           </li>
         </ul>
       </div>
       <div className="card">
         <ul>
           <li>
-            <img src={javascriptImg} alt="Javascript" /> Javascript
+            <img src={etherImg} alt="ETHER.JS" /> ETHER.JS
           </li>
           <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={hardhatImg} alt="HARDHAT" /> HARDHAT
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
+            <img src={metamaskImg} alt="METAMASK" /> METAMASK
           </li>
           <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={jiraImg} alt="JIRA" /> JIRA
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
+            <img src={gitImg} alt="GIT" /> GIT
           </li>
         </ul>
       </div>

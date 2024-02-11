@@ -13,13 +13,26 @@ function About() {
       <div className="bio">
         <h2>{aboutData.title}</h2>
         <p>{aboutData.text}</p>
-        < DownloadCVButton />
+        <a
+          href="https://github.com/GuillaumeB75"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github fa-2x"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/guillaume-bezie/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin fa-2x"></i>
+        </a>
+        <DownloadCVButton />
       </div>
-      
+
       <div className="image-container">
         <img src={perso} alt="Moi" />
       </div>
-      
     </Element>
   );
 }
