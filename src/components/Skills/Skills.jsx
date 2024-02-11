@@ -19,7 +19,7 @@ import cssImg from "../../assets/images/CSS3.png"; // Mettez à jour le chemin
 import bootstrapImg from "../../assets/images/Bootstrap.jpeg"; // Mettez à jour le chemin
 import solidityImg from "../../assets/images/Solidity.png"; // Mettez à jour le chemin
 
-// Répétez pour les autres technologies
+
 
 function Skills() {
   return (
@@ -46,10 +46,10 @@ function Skills() {
       <div className="card">
         <ul>
           <li>
-            <img src={javascriptImg} alt="Javascript" /> Javascript
+            <img src={cssImg} alt="CSS3" /> CSS3
           </li>
           <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={bootstrapImg} alt="BOOTSTRAP" /> BOOTSTRAP
           </li>
           <li>
             <img src={sassImg} alt="SASS" /> SASS

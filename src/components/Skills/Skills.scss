@@ -10,7 +10,7 @@
     align-items: center;
     height: 100vh;
 
-    div { // S'assure que chaque carte à l'intérieur de `.skills-container` s'ajuste
+    div { 
       width: 80%; // Ajuste la largeur des cartes pour qu'elles s'adaptent mieux
       margin: 10px 0; // Espacement vertical pour ne pas déborder sur l'élément suivant
     }
@@ -18,18 +18,16 @@
 }
 
 .card {
-  margin: 1rem; // Espacement uniforme autour des cartes
-  width: 25rem; // Largeur par défaut, peut être ajustée si nécessaire
+  margin: 1rem; 
+  width: 25rem; 
   box-shadow: 0 2px 5px; // Ombre portée pour le relief
   height: fit-content; // S'adapte au contenu de la carte
 
   @media (max-width: 768px) {
     width: 80%; // Ajustement de la largeur en responsive
-     // Restaurez le padding si nécessaire pour le contenu interne
+     
   }
 }
-
-// Les styles pour `.card-img-top`, `.card-body`, `.card-title`, `.card-text`, et `.card-link` restent inchangés
 
 
 ul {

@@ -30,6 +30,7 @@
       max-width: 350px;
       height: auto;
       border-radius: 10px;
+      animation: slideInFromRight 2s ease-out;
     }
   }
 
@@ -53,5 +54,15 @@
       font-style: italic;
   }
   }
+}
+
+
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
  
 }
