@@ -6,7 +6,7 @@ import backgroundContact from "../../assets/images/background.jpg";
 
 function Contact() {
   const email = "guillaume.bezie@yahoo.com";
-  const phoneNumber = "06 66 82 63 16";
+  const phoneNumber = "+33 6 66 82 63 16";
 
   return (
     <Element name="Contact" className="contact-info" style={{ backgroundImage: `url(${backgroundContact})` }}>
