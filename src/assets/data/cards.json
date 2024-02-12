@@ -10,15 +10,15 @@
   {
     "title": "Projet Kasa",
     "text": "Projet frontend d'un site immobilier mettant en oeuvre les technologies React.Js et SCSS.",
-    "text2": "Nombreuses contraintes liées à l'utilisation de react.js qui malgré sa flexibilté demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire",
+    "text2": "Nombreuses contraintes liées à l'utilisation de react.js qui malgré sa flexibilté demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire.",
     "text3":"Étude de maquette, reproduction simplifiée et cours pour parvenir à la résolution des problématiques rencontrées.",
     "imageSrc": "Kasa.png",
     "githubLink": "https://github.com/GuillaumeB75/kasa"
   },
   {
     "title": "Projet Mon Vieux Grimoire",
-    "text": "Travail exclusivement sur une archictecture backend pour un site de notation de livres pour de multiples utilisateurs. Le tout est lié à un frontend communiqué au préalable par un développeur frontend. Environnement Node.js, serveur ExpressJs et base de données NoSql avec MongoDB. Attention portée sur la sécurité, la validation des données et le green code.",
-    "text2": "Contraintes liés à l'appéhension d'un nouveau type de code et d'une nouvelle logique pour la mise en place d'un site et le traitement de ses données",
+    "text": "Travail exclusivement sur une architecture backend pour un site de notation de livres pour de multiples utilisateurs. Le tout est lié à un frontend communiqué au préalable par un développeur frontend. Environnement Node.js, serveur ExpressJs et base de données NoSql avec MongoDB. Attention portée sur la sécurité, la validation des données et le green code.",
+    "text2": "Contraintes liés à l'appéhension d'un nouveau type de code et d'une nouvelle logique pour la mise en place d'un site et le traitement de ses données.",
     "text3":"Utilisation des packages moongoose-unique-validator et jsonWebtoken afin de sécuriser les connections et la manipulation des données entrantes et sortantes. Travail sur la compréhension du traitement des erreurs et la gestion des requêtes.",
     "imageSrc": "Mon_vieux_grimoire2.png",
     "githubLink": "https://github.com/GuillaumeB75/backend-mon-vieux-grimoire"
