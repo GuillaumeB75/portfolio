@@ -21,9 +21,12 @@ function Cards() {
             <Card.Text>
               {item.text2}
             </Card.Text>
+            <Card.Text>
+              {item.text3}
+            </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href={item.githubLink}>GitHub Repo</Card.Link>
+            <Card.Link href={item.githubLink}>Lien GitHub</Card.Link>
           </Card.Body>
         </Card>
       ))}

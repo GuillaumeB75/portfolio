@@ -1,8 +1,9 @@
 [
   {
     "title": "Projet Cometh",
-    "text": "Projet frontend et backend autour des technologies de l'écosystème Blockchain. Mise en place d'une Organisation Autonome Décentralisée avec un système de vote autour de l'Ethéreum.",
-    "text2": "lolololololololol",
+    "text": "Projet frontend et backend autour des technologies de l'écosystème Blockchain. Mise en place d'une Organisation Autonome Décentralisée avec un système de vote autour de l'Ethéreum. Utilisation du langage Solidity pour smartcontracts.",
+    "text2": "Nombreuses contraintes technologiques liées à leur récente émergence. Multiples connexions et utilisation d'un outil fiduciaire. Temps de réalisation imparti.",
+    "text3":"Projet réalisé dans le cadre d'un travail en petite équipe. Approche collaborative et incrémentale.",
     "imageSrc": "cometh_dao.jpg",
     "githubLink": "https://github.com/GuillaumeB75/Dapp_ComEth"
   },
@@ -10,6 +11,7 @@
     "title": "Projet Kasa",
     "text": "Texte court pour la carte 2.",
     "text2": "lolololololololol",
+    "text3":"jcnejrnjernjnerjcenrj",
     "imageSrc": "Kasa.png",
     "githubLink": "https://github.com/lien_vers_le_repo_2"
   },
@@ -17,6 +19,7 @@
     "title": "Projet Mon Vieux Grimoire",
     "text": "Texte court pour la carte 3.",
     "text2": "lolololololololol",
+    "text3":"jcnejrnjernjnerjcenrj",
     "imageSrc": "Mon_vieux_grimoire2.png",
     "githubLink": "https://github.com/lien_vers_le_repo_3"
   }
