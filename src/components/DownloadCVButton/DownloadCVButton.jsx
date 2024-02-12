@@ -1,10 +1,10 @@
 import React from 'react';
-import monCV from '/Users/guillaumebezie/Desktop/portfolio/src/assets/pdf/CV_Guillaume_Bézie.pdf'; 
+import monCV from '/Users/guillaumebezie/Desktop/portfolio/src/assets/images/guillaume bézie.png'; 
 
 const DownloadCVButton = () => {
   return (
-    <a href={monCV} download="CV_Guillaume_Bézie.pdf">
-      Télécharger mon CV
+    <a href={monCV} download="guillaume bézie.png">
+      Afficher mon CV
     </a>
   );
 };
