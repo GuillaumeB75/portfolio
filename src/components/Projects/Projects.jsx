@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Element } from "react-scroll";
 import "./projects.scss";
-import data from "../../assets/data/cards.json"; // Assurez-vous que le chemin est correct
+import data from "../../assets/data/cards.json"; 
 
 
 function Cards() {
