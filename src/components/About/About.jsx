@@ -13,6 +13,7 @@ function About() {
       <div className="bio">
         <h2>{aboutData.title}</h2>
         <p>{aboutData.text}</p>
+        <p>{aboutData.text2}</p>
         <a
           href="https://github.com/GuillaumeB75"
           target="_blank"
