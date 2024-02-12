@@ -1,5 +1,5 @@
 import React from 'react';
-import monCV from '/Users/guillaumebezie/Desktop/portfolio/src/assets/data/CV_Guillaume_Bézie.pdf'; 
+import monCV from '/Users/guillaumebezie/Desktop/portfolio/src/assets/pdf/CV_Guillaume_Bézie.pdf'; 
 
 const DownloadCVButton = () => {
   return (
