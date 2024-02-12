@@ -1,7 +1,7 @@
 import React from "react";
 import "./error.scss";
 import { NavLink } from "react-router-dom";
-import Footer from "../../components/Footer/Footer";
+
 
 function Error() {
   return (
@@ -11,7 +11,7 @@ function Error() {
       <NavLink to="/">
         <h3>Come back to home</h3>
       </NavLink>
-      <Footer />
+      
     </div>
   );
 }
