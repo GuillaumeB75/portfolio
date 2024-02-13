@@ -28,16 +28,16 @@ function Start() {
     if (h1Ref.current && h2Ref.current && h3Ref.current) {
       typeEffect(h1Ref.current, speed);
       const delayH1 = h1Ref.current.innerHTML.length * speed + speed;
-      // Ajustez ici pour inclure le délai après la fin de l'animation de h1Ref avant de commencer h2Ref
+      
       setTimeout(() => {
-        h2Ref.current.style.display = "block"; // Utilisez "block" pour s'assurer qu'il s'affiche sur une nouvelle ligne
+        h2Ref.current.style.display = "block"; 
         typeEffect(h2Ref.current, speed);
       }, delayH1);
 
       const delayH2 = delayH1 + h2Ref.current.innerHTML.length * speed + speed;
-      // Ajustez ici pour inclure le délai total après h1Ref et h2Ref avant de commencer h3Ref
+      
       setTimeout(() => {
-        h3Ref.current.style.display = "block"; // De même, "block" pour une nouvelle ligne
+        h3Ref.current.style.display = "block"; 
         typeEffect(h3Ref.current, speed);
       }, delayH2);
     }

@@ -24,6 +24,12 @@
     gap: 1rem;
   }
 
+
+  @media screen and (max-width: 352px) {
+    font-size: 10px;
+    text-transform: uppercase;
+    gap: 1rem;
+  }
   
 
   & a {
