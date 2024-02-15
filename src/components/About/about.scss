@@ -23,22 +23,21 @@
 
     a {
       padding-right: 1rem;
-    text-shadow: 0 2px 5px; // Une ombre portée légère pour faire ressortir les cartes;
-    color:#52527a;
+      text-shadow: 0 2px 2px;
+      color: #52527a;
     }
   }
 
   .image-container {
     flex: 1;
     justify-content: center;
-    
 
     img {
       max-width: 350px;
       height: auto;
       border-radius: 10px;
       animation: slideInFromRight 2s ease-out;
-      box-shadow: 0 2px 5px; 
+      box-shadow: 0 2px 5px;
     }
   }
 
@@ -56,6 +55,11 @@
         height: auto;
         border-radius: 10px;
       }
+    }
+
+    .bio{
+
+      margin-top: 20px;
     }
 
     .bio p {

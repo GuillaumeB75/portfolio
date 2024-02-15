@@ -24,6 +24,7 @@ import solidityImg from "../../assets/images/Solidity.png"; // Mettez à jour le
 function Skills() {
   return (
     <Element name="Skills" className="skills-container">
+      
       <div className="card">
         <ul>
           <li>
