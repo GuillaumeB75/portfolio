@@ -12,6 +12,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 2px 5px; // Une ombre portée légère pour faire ressortir les cartes
   :hover {
     cursor: pointer;
   }

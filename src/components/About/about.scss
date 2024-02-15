@@ -23,6 +23,8 @@
 
     a {
       padding-right: 1rem;
+    text-shadow: 0 2px 5px; // Une ombre portée légère pour faire ressortir les cartes;
+    color:#52527a;
     }
   }
 
@@ -47,6 +49,7 @@
 
     .image-container {
       margin-bottom: 20px;
+      padding-top: 10px;
 
       img {
         max-width: 200px;
