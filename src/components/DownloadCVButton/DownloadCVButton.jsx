@@ -4,7 +4,7 @@ import monCV from '../../assets/data/CV_Guillaume_Bézie.pdf';
 const DownloadCVButton = () => {
   return (
     <a href={monCV} download="CV_Guillaumme_Bézie.pdf">
-      Télécharger ici mon CV
+      Téléchargez ici mon CV
     </a>
   );
 };
