@@ -18,6 +18,7 @@ function About() {
           href="https://github.com/GuillaumeB75"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Mon profil GitHub"
         >
           <i className="fab fa-github fa-2x"></i>
         </a>
@@ -25,6 +26,7 @@ function About() {
           href="https://www.linkedin.com/in/guillaume-bezie/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Mon profil LinkedIn"
         >
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
