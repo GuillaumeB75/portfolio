@@ -9,7 +9,7 @@ function Header() {
       <Link to="Start" smooth={true} offset={-70} duration={1000} aria-label="Naviguer vers la section d'accueil">
         Accueil
       </Link>
-      <Link to="about" smooth={true} offset={-70} duration={1000} aria-label="Naviguer vers la section à propos">
+      <Link to="about" smooth={true} duration={1000} aria-label="Naviguer vers la section à propos">
         À propos
       </Link>
       <Link to="Skills" smooth={true} offset={-70} duration={1000} aria-label="Naviguer vers la section compétences">
