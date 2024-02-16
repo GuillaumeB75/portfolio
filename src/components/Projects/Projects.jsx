@@ -12,7 +12,7 @@ function Cards() {
     <div>
       {data.map((item, index) => (
         <Card key={index} >
-          <Card.Img variant="top" src={require(`../../assets/images/${item.imageSrc}`)}  />
+          <Card.Img variant="top" src={require(`../../assets/images/${item.imageSrc}`)} alt={item.imageAlt || 'Image du projet'} />
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
             <Card.Text>

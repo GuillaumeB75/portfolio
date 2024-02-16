@@ -5,6 +5,7 @@
     "text2": "Nombreuses contraintes technologiques liées à leur récente émergence. Multiples connexions et utilisation d'un outil fiduciaire. Temps de réalisation imparti.",
     "text3":"Projet réalisé dans le cadre d'un travail en petite équipe. Approche collaborative et incrémentale.",
     "imageSrc": "cometh_dao.jpg",
+    "imageAlt": "image réunion de bureau",
     "githubLink": "https://github.com/GuillaumeB75/Dapp_ComEth"
   },
   {
@@ -13,6 +14,7 @@
     "text2": "Nombreuses contraintes liées à l'utilisation de react.js qui malgré sa flexibilté demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire.",
     "text3":"Étude de maquette, reproduction simplifiée et cours pour parvenir à la résolution des problématiques rencontrées.",
     "imageSrc": "Kasa.png",
+    "imageAlt": "intérieur d'appartement",
     "githubLink": "https://github.com/GuillaumeB75/kasa"
   },
   {
@@ -21,6 +23,7 @@
     "text2": "Contraintes liés à l'appéhension d'un nouveau type de code et d'une nouvelle logique pour la mise en place d'un site et le traitement de ses données.",
     "text3":"Utilisation des packages moongoose-unique-validator et jsonWebtoken afin de sécuriser les connections et la manipulation des données entrantes et sortantes. Travail sur la compréhension du traitement des erreurs et la gestion des requêtes.",
     "imageSrc": "Mon_vieux_grimoire2.png",
+    "imageAlt": "rangées de livres",
     "githubLink": "https://github.com/GuillaumeB75/backend-mon-vieux-grimoire"
   }
 

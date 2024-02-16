@@ -28,57 +28,57 @@ function Skills() {
       <div className="card">
         <ul>
           <li>
-            <img src={javascriptImg} alt="Javascript" /> JAVASCRIPT
+            <img src={javascriptImg} alt="logo Javascript" /> JAVASCRIPT
           </li>
           <li>
-            <img src={reactImg} alt="REACT.JS" /> REACT.JS
+            <img src={reactImg} alt="logo REACT.JS" /> REACT.JS
           </li>
           <li>
-            <img src={solidityImg} alt="Solidity" /> SOLIDITY
+            <img src={solidityImg} alt="logo Solidity" /> SOLIDITY
           </li>
           <li>
-            <img src={sassImg} alt="SASS" /> SASS
+            <img src={sassImg} alt="logo SASS" /> SASS
           </li>
           <li>
-            <img src={htmlImg} alt="HTML5" /> HTML5
-          </li>
-        </ul>
-      </div>
-      <div className="card">
-        <ul>
-          <li>
-            <img src={cssImg} alt="CSS3" /> CSS3
-          </li>
-          <li>
-            <img src={bootstrapImg} alt="BOOTSTRAP" /> BOOTSTRAP
-          </li>
-          <li>
-            <img src={expressImg} alt="EXPRESS.JS" /> EXPRESS.JS
-          </li>
-          <li>
-            <img src={nodeImg} alt="NODE.JS" /> NODE.JS
-          </li>
-          <li>
-            <img src={mongoImg} alt="MongoDB" /> MongoDB
+            <img src={htmlImg} alt="logo HTML5" /> HTML5
           </li>
         </ul>
       </div>
       <div className="card">
         <ul>
           <li>
-            <img src={etherImg} alt="ETHER.JS" /> ETHER.JS
+            <img src={cssImg} alt="logo CSS3" /> CSS3
           </li>
           <li>
-            <img src={hardhatImg} alt="HARDHAT" /> HARDHAT
+            <img src={bootstrapImg} alt="logo BOOTSTRAP" /> BOOTSTRAP
           </li>
           <li>
-            <img src={metamaskImg} alt="METAMASK" /> METAMASK
+            <img src={expressImg} alt="logo EXPRESS.JS" /> EXPRESS.JS
           </li>
           <li>
-            <img src={jiraImg} alt="JIRA" /> JIRA
+            <img src={nodeImg} alt="logo NODE.JS" /> NODE.JS
           </li>
           <li>
-            <img src={gitImg} alt="GIT" /> GIT
+            <img src={mongoImg} alt="logo MongoDB" /> MongoDB
+          </li>
+        </ul>
+      </div>
+      <div className="card">
+        <ul>
+          <li>
+            <img src={etherImg} alt="logo ETHER.JS" /> ETHER.JS
+          </li>
+          <li>
+            <img src={hardhatImg} alt="logo HARDHAT" /> HARDHAT
+          </li>
+          <li>
+            <img src={metamaskImg} alt="logo METAMASK" /> METAMASK
+          </li>
+          <li>
+            <img src={jiraImg} alt="logo JIRA" /> JIRA
+          </li>
+          <li>
+            <img src={gitImg} alt="logo GIT" /> GIT
           </li>
         </ul>
       </div>
