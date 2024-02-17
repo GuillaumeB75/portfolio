@@ -8,7 +8,8 @@ import data from "../../assets/data/cards.json";
 function Cards() {
   return (
     <Element name="Projects" className="projects-container">
-     
+  <div className="projects-box">
+  <h2>Projets</h2>
     <div>
       {data.map((item, index) => (
         <Card key={index} >
@@ -30,6 +31,7 @@ function Cards() {
           </Card.Body>
         </Card>
       ))}
+    </div>
     </div>
     </Element>
   );
