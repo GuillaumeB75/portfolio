@@ -19,68 +19,68 @@ import cssImg from "../../assets/images/CSS3.png"; // Mettez à jour le chemin
 import bootstrapImg from "../../assets/images/Bootstrap.jpeg"; // Mettez à jour le chemin
 import solidityImg from "../../assets/images/Solidity.png"; // Mettez à jour le chemin
 
-
-
 function Skills() {
   return (
     <Element name="Skills" className="skills-container">
-      
-      <div className="card">
-        <ul>
-          <li>
-            <img src={javascriptImg} alt="logo Javascript" /> JAVASCRIPT
-          </li>
-          <li>
-            <img src={reactImg} alt="logo REACT.JS" /> REACT.JS
-          </li>
-          <li>
-            <img src={solidityImg} alt="logo Solidity" /> SOLIDITY
-          </li>
-          <li>
-            <img src={sassImg} alt="logo SASS" /> SASS
-          </li>
-          <li>
-            <img src={htmlImg} alt="logo HTML5" /> HTML5
-          </li>
-        </ul>
-      </div>
-      <div className="card">
-        <ul>
-          <li>
-            <img src={cssImg} alt="logo CSS3" /> CSS3
-          </li>
-          <li>
-            <img src={bootstrapImg} alt="logo BOOTSTRAP" /> BOOTSTRAP
-          </li>
-          <li>
-            <img src={expressImg} alt="logo EXPRESS.JS" /> EXPRESS.JS
-          </li>
-          <li>
-            <img src={nodeImg} alt="logo NODE.JS" /> NODE.JS
-          </li>
-          <li>
-            <img src={mongoImg} alt="logo MongoDB" /> MongoDB
-          </li>
-        </ul>
-      </div>
-      <div className="card">
-        <ul>
-          <li>
-            <img src={etherImg} alt="logo ETHER.JS" /> ETHER.JS
-          </li>
-          <li>
-            <img src={hardhatImg} alt="logo HARDHAT" /> HARDHAT
-          </li>
-          <li>
-            <img src={metamaskImg} alt="logo METAMASK" /> METAMASK
-          </li>
-          <li>
-            <img src={jiraImg} alt="logo JIRA" /> JIRA
-          </li>
-          <li>
-            <img src={gitImg} alt="logo GIT" /> GIT
-          </li>
-        </ul>
+      <h2>Compétences</h2>
+      <div className="box-card">
+        <div className="card">
+          <ul>
+            <li>
+              <img src={javascriptImg} alt="logo Javascript" /> JAVASCRIPT
+            </li>
+            <li>
+              <img src={reactImg} alt="logo REACT.JS" /> REACT.JS
+            </li>
+            <li>
+              <img src={solidityImg} alt="logo Solidity" /> SOLIDITY
+            </li>
+            <li>
+              <img src={sassImg} alt="logo SASS" /> SASS
+            </li>
+            <li>
+              <img src={htmlImg} alt="logo HTML5" /> HTML5
+            </li>
+          </ul>
+        </div>
+        <div className="card">
+          <ul>
+            <li>
+              <img src={cssImg} alt="logo CSS3" /> CSS3
+            </li>
+            <li>
+              <img src={bootstrapImg} alt="logo BOOTSTRAP" /> BOOTSTRAP
+            </li>
+            <li>
+              <img src={expressImg} alt="logo EXPRESS.JS" /> EXPRESS.JS
+            </li>
+            <li>
+              <img src={nodeImg} alt="logo NODE.JS" /> NODE.JS
+            </li>
+            <li>
+              <img src={mongoImg} alt="logo MongoDB" /> MongoDB
+            </li>
+          </ul>
+        </div>
+        <div className="card">
+          <ul>
+            <li>
+              <img src={etherImg} alt="logo ETHER.JS" /> ETHER.JS
+            </li>
+            <li>
+              <img src={hardhatImg} alt="logo HARDHAT" /> HARDHAT
+            </li>
+            <li>
+              <img src={metamaskImg} alt="logo METAMASK" /> METAMASK
+            </li>
+            <li>
+              <img src={jiraImg} alt="logo JIRA" /> JIRA
+            </li>
+            <li>
+              <img src={gitImg} alt="logo GIT" /> GIT
+            </li>
+          </ul>
+        </div>
       </div>
     </Element>
   );
