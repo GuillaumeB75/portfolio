@@ -8,7 +8,7 @@ function Start() {
   const h2Ref = useRef(null);
   const h3Ref = useRef(null);
 
-  const speed = 100; // Vitesse de l'effet de frappe
+  const speed = 50; // Vitesse de l'effet de frappe
 
   const typeEffect = (element, speed) => {
     const text = element.innerHTML;
