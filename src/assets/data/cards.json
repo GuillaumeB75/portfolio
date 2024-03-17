@@ -11,7 +11,7 @@
   {
     "title": "Projet Kasa",
     "text": "Projet frontend d'un site immobilier mettant en oeuvre les technologies React.Js et SCSS.",
-    "text2": "Nombreuses contraintes liées à l'utilisation de react.js qui malgré sa flexibilté demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire.",
+    "text2": "Nombreuses contraintes liées à l'utilisation de React.js qui malgré sa flexibilité demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire.",
     "text3":"Étude de maquette, reproduction simplifiée et cours pour parvenir à la résolution des problématiques rencontrées.",
     "imageSrc": "Kasa.png",
     "imageAlt": "intérieur d'appartement",
