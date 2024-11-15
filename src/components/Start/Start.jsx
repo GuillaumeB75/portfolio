@@ -63,7 +63,7 @@ function Start() {
         <div id="centeralign">
           <h1 ref={h1Ref}>Bonjour !</h1> 
           <h2 ref={h2Ref} style={{ display: 'none' }}>Je suis Guillaume Bézie,</h2>
-          <h2 ref={h3Ref} style={{ display: 'none' }}>Développeur Intégrateur Web</h2> 
+          <h2 ref={h3Ref} style={{ display: 'none' }}> Product Manager et Développeur Intégrateur Web</h2> 
         </div>
       </div>
     </Element>
