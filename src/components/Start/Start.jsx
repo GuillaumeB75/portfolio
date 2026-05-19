@@ -34,7 +34,6 @@ function Start() {
           <h1>
             <Typewriter text="Bonjour !" onComplete={() => setShowLine2(true)} />
           </h1>
-          {/* Les lignes suivantes n'apparaissent que lorsque la précédente a fini de s'écrire */}
           {showLine2 && (
             <h2>
               <Typewriter text="Je suis Guillaume Bézie," onComplete={() => setShowLine3(true)} />
@@ -42,7 +41,8 @@ function Start() {
           )}
           {showLine3 && (
             <h2>
-              <Typewriter text=" Product Manager et Développeur Intégrateur Web" />
+              {/* C'est ici que le texte change pour s'aligner sur ton objectif */}
+              <Typewriter text=" À la recherche d'une alternance : Chef de Projet IT / PMO" />
             </h2>
           )}
         </div>
