@@ -11,8 +11,8 @@ function Cards() {
   <div className="projects-box">
   <h2>Projets</h2>
     <div>
-      {data.map((item, index) => (
-        <Card key={index} >
+      {data.map((item) => (
+        <Card key={item.id} >
           <Card.Img variant="top" src={require(`../../assets/images/${item.imageSrc}`)} alt={item.imageAlt || 'Image du projet'} />
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
