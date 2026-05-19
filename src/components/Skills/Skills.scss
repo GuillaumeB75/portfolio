@@ -3,12 +3,7 @@
   flex-direction: column;
   text-align: center;
   background-color: rgb(231, 229, 227);
-  height: 100vh;
-
-  @media (max-width: 768px) {
-   
-    height: 110vh;
-}
+  min-height: 100vh;
 }
 
 .box-card {
@@ -25,7 +20,7 @@
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 
     div {
       width: 80%; // Ajuste la largeur des cartes pour qu'elles s'adaptent mieux

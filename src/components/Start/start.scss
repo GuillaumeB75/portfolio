@@ -1,7 +1,7 @@
 @import "../../sass/utils/variables.scss";
 
 .start-container {
-  height: 100vh; // Hauteur de l'écran complet
+  min-height: 100vh; // Hauteur de l'écran complet
   background-size: cover !important;
   background-position: center !important;
   display: flex;
