@@ -1,30 +1,32 @@
 [
   {
+    "id": "projet-cometh",
     "title": "Projet Cometh",
     "text": "Projet frontend et backend autour des technologies de l'écosystème Blockchain. Mise en place d'une Organisation Autonome Décentralisée avec un système de vote autour de l'Ethéreum. Utilisation du langage Solidity pour smartcontracts.",
     "text2": "Nombreuses contraintes technologiques liées à leur récente émergence. Multiples connexions et utilisation d'un outil fiduciaire. Temps de réalisation imparti.",
-    "text3":"Projet réalisé dans le cadre d'un travail en petite équipe. Approche collaborative et incrémentale.",
+    "text3": "Projet réalisé dans le cadre d'un travail en petite équipe. Approche collaborative et incrémentale.",
     "imageSrc": "cometh_dao.jpg",
-    "imageAlt": "image réunion de bureau",
+    "imageAlt": "Équipe projet en réunion de coordination",
     "githubLink": "https://github.com/GuillaumeB75/Dapp_ComEth"
   },
   {
+    "id": "projet-kasa",
     "title": "Projet Kasa",
     "text": "Projet frontend d'un site immobilier mettant en oeuvre les technologies React.Js et SCSS.",
     "text2": "Nombreuses contraintes liées à l'utilisation de React.js qui malgré sa flexibilité demande de repenser l'acquisition des maquettes. Nouvelle architecture du style avec SASS qui permet une meilleure modularité. Travail sur les animations de type collapse. Enfin, le travail de données avec les fichiers JSON était un élément de contrainte supplémentaire.",
-    "text3":"Étude de maquette, reproduction simplifiée et cours pour parvenir à la résolution des problématiques rencontrées.",
+    "text3": "Étude de maquette, reproduction simplifiée et cours pour parvenir à la résolution des problématiques rencontrées.",
     "imageSrc": "Kasa.png",
-    "imageAlt": "intérieur d'appartement",
+    "imageAlt": "Interface de l'application web immobilière Kasa",
     "githubLink": "https://github.com/GuillaumeB75/kasa"
   },
   {
+    "id": "projet-grimoire",
     "title": "Projet Mon Vieux Grimoire",
     "text": "Travail exclusivement sur une architecture backend pour un site de notation de livres pour de multiples utilisateurs. Le tout est lié à un frontend communiqué au préalable par un développeur frontend. Environnement Node.js, serveur ExpressJs et base de données NoSql avec MongoDB. Attention portée sur la sécurité, la validation des données et le green code.",
     "text2": "Contraintes liés à l'appéhension d'un nouveau type de code et d'une nouvelle logique pour la mise en place d'un site et le traitement de ses données.",
-    "text3":"Utilisation des packages moongoose-unique-validator et jsonWebtoken afin de sécuriser les connections et la manipulation des données entrantes et sortantes. Travail sur la compréhension du traitement des erreurs et la gestion des requêtes.",
+    "text3": "Utilisation des packages moongoose-unique-validator et jsonWebtoken afin de sécuriser les connections et la manipulation des données entrantes et sortantes. Travail sur la compréhension du traitement des erreurs et la gestion des requêtes.",
     "imageSrc": "Mon_vieux_grimoire.png",
-    "imageAlt": "rangées de livres",
+    "imageAlt": "Interface backend pour la gestion de la base de données de livres",
     "githubLink": "https://github.com/GuillaumeB75/backend-mon-vieux-grimoire"
   }
-
 ]
